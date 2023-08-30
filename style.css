@@ -1,0 +1,21 @@
+/* Properties which are inherited by the child element*/
+body {
+  font-family: Arial, sans-serif;
+  color: #444444;
+  background-color: #f5f5f5;
+  line-height: 1.6;
+}
+
+
+
+/* Properties which are not inherited by the child element */
+body {
+  font-size: 22px;
+  background-color: lightgray;
+}
+
+.non-inheritable {
+  color: initial; /* Reset color to default */
+  background-color: initial; /* Reset background color to default */
+  font-size: 1em;
+}
